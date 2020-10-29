@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style/style.css"/>
+    
+</head>
+<body>
+    <div class="container">
+        <canvas id="canvas" width="800" height="500"></canvas>
+        
+    </div>
+    <table id="text">
+        <tr><td colspan="2"><input id="addElemXY" type='button' value='Add new elem' onclick='setObjectsByXY()'></td></tr>
+        <tr><td>X<input id="x" type='number' value='20'></td><td>Y<input id="y" type='number' value='20'></td></tr>
+        <!-- <tr><td><input id="XY" type='button' value='coord' onclick='getElementsByXY()'></td></tr> -->
+        <tr><td colspan="2"><input id="araund" type='button' value='Rotate new elem' onclick='setObjectAraund()'></td></tr>
+        <tr><td>X<input id="xa" type='number' value='20'></td><td>Y<input id="ya" type='number' value='20'></td></tr>
+        <tr><td>Radius<input id="ra" type='number' value='20'></td><td>Angle<input id="ar" type='number' value='20'></td></tr>
+    </table>
+    <div id="infoAria"></div>
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+</html>

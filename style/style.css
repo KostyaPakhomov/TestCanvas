@@ -1,0 +1,66 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении*/
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type*="button"]{
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 0.1em 0.5em;
+    color: #ffffff;
+    background-color: #DAA520;
+}
+
+input[type*="button"]:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
+
+input[type*="button"]:hover {
+    color: #DAA520;
+    border-color: currentColor;
+    background-color: white;
+}
+
+input[type*="button"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.5),
+    0 0 0 1.5px rgba(255, 215, 0, 0.5);
+}
+td {
+    text-align: center;
+}
+
+input[type=number]{
+    border: 2px solid red;
+}
+
+#text {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 200px;
+}
+
+#infoAria {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    width: 200px;
+    height: auto;
+    border: 2px solid red;
+}
+
